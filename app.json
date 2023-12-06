@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "ex04",
+    "name": "Conecta Mundo",
     "slug": "ex04",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/applogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/applogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/applogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.medeirosgen.ex04"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/applogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2f048dd-20a5-40b7-8938-249c686d767e"
+      }
     }
   }
 }
